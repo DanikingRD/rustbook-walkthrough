@@ -1,0 +1,13 @@
+[package]
+name = "dependencies"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+tokio = "1.23.0"
+serde = "1.0.149"
+winit = {git = "https://github.com/rust-windowing/winit" } 
+sub_crate = { path = "sub_crate" }
